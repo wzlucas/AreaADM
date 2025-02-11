@@ -1,14 +1,13 @@
-/* Estilos Gerais */
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #f8f9fa;
+    overflow-x: hidden;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-/* Cabeçalho */
 header {
-    background: #343a40;
+    background: #333a41;
     color: white;
     padding: 15px;
     text-align: center;
@@ -24,19 +23,16 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Layout */
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
 
-/* Formulários */
 form {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     margin: auto;
 }
@@ -50,12 +46,11 @@ input, textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 5px;
 }
 
 button {
-    background: #28a745;
     color: white;
     border: none;
     padding: 10px;
@@ -66,58 +61,56 @@ button {
 }
 
 button:hover {
-    background: #218838;
+    background: #4b4b4b6e;
 }
 
-/* Tabela */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
 }
 
-th, td {
+td {
     padding: 12px;
     border: 1px solid #ddd;
     text-align: left;
 }
 
-th {
-    background: #343a40;
-    color: white;
+.perfil-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
 }
 
-/* Sidebar */
-.sidebar {
-    min-height: 100vh;
-    background: #343a40;
-    color: white;
-    padding: 15px;
-    transition: transform 0.3s;
+.perfil-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.sidebar a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
+.btn-editar {
+    background-color: rgb(65, 187, 71);
 }
 
-.sidebar a:hover {
-    background: #495057;
+.btn-sair {
+    background-color: #dc3545;
 }
 
-@media (max-width: 768px) {
-    .sidebar {
-        position: fixed;
-        transform: translateX(-100%);
-    }
-    .sidebar.show {
-        transform: translateX(0);
-    }
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
 }
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
